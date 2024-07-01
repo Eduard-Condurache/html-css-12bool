@@ -1,0 +1,101 @@
+
+/* ROOT */
+
+:root {
+    --dark-green: #1B6816;
+    --medium-green: #2A8123;
+    --light-green: #2ACA1E;
+
+    --dark-grey: #151515;
+    --medium-grey: #292929;
+    --light-grey: #525252;
+
+    --dark-brown: #926D39;
+    --medium-brown: #B48648;
+    --light-brown: #DAA257;
+
+    --dark-cyan: #7BB6A4;
+}
+
+
+body {
+    background-color: darkred;
+}
+
+/* GENERAL */
+
+.my-container {
+    max-width: 800px;
+    margin: 0 auto;
+    height: calc(100vh - 80px);
+}
+
+/* MAIN */
+
+main {
+    margin: 40px 0;
+}
+
+.my-container [class^="my-col"] {
+    height: 25px;
+}
+
+.black {
+    background-color: black;
+}
+
+.dark-red {
+    background-color: darkred;
+}
+
+.medium-grey {
+    background-color: var(--medium-grey);
+}
+
+.dark-green {
+    background-color: var(--dark-green);
+}
+
+.dark-cyan {
+    background-color: var(--dark-cyan);
+}
+
+.light-grey {
+    background-color: var(--light-grey);
+}
+
+.dark-grey {
+    background-color: var(--dark-grey);
+}
+
+.light-green {
+    background-color: var(--light-green);
+}
+
+.medium-green {
+    background-color: var(--medium-green);
+}
+
+.light-brown {
+    background-color: var(--light-brown);
+}
+
+.medium-brown {
+    background-color: var(--medium-brown);
+}
+
+.dark-brown {
+    background-color: var(--dark-brown);
+}
+
+.low-yellow {
+    background-color: #AC9801;
+}
+
+.orange {
+    background-color: #A34801;
+}
+
+
+
+
