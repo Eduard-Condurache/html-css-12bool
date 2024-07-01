@@ -1,14 +1,37 @@
-    /* RESET */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* MAIN */
+
+.section-2,
+.section-3,
+.section-4 {
+    margin-top: 20px;
 }
 
-    /* GENERAL */
+[class^="my-col"] {
+    text-align: center;
+    background-color:#006CFA;
+    color: white;
+    border: 1px white solid;
+    padding: 15px;
+}
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}  
+.nested [class^="my-col"] {
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+.section-4 .nested [class^="my-col"] {
+    border: 1px solid #006CFA;
+}
+
+.section-2 [class^="my-col"],
+.section-3 [class^="my-col"],
+.section-4 [class^="my-col"] {
+    padding: 25px;
+    border: 1px solid white;
+}
+
+
+
+
+
